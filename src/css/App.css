@@ -1,0 +1,106 @@
+*,
+::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: dodgerblue;
+}
+
+.container {
+  height: 100vh;
+  width: 70vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.form {
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  font-size: medium;
+  margin: 1rem 0rem;
+  line-height: 3rem;
+  background: rgb(236, 235, 235);
+  border-radius: 8px;
+  outline: 0;
+  border: 0;
+  color: dodgerblue;
+}
+
+.form input:active {
+  border-bottom: 1px solid dodgerblue;
+}
+
+.form input:focus {
+  border-bottom: 1px solid dodgerblue;
+}
+
+.Filtro {
+  font-size: medium;
+  margin: 1rem 0rem;
+  line-height: 3rem;
+  background: rgb(236, 235, 235);
+  border-radius: 8px;
+  outline: 0;
+  border: 0;
+  color: dodgerblue;
+}
+
+button[type="submit"] {
+  margin: 1rem 0rem;
+  background-color: dodgerblue;
+  border: 0;
+  outline: 0;
+  height: 3rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  padding: 15px;
+  border: 1px solid;
+}
+
+th {
+  height: 40px;
+  padding: 15px;
+}
